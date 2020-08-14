@@ -6,13 +6,13 @@ namespace PierresTreats.Models
     {
         public Treat()
         {
-            this.Flavors = new HashSet<CategoryTreat>();
+            this.Flavors = new HashSet<FlavorTreat>();
         }
 
         public int TreatId { get; set; }
         public string Name { get; set; }
         public virtual ApplicationUser User { get; set; }
 
-        public ICollection<CategoryTreat> Flavors { get;}
+        public ICollection<FlavorTreat> Flavors { get;}
     }
 }
