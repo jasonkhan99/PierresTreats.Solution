@@ -20,7 +20,7 @@ Pierre is back! He wants you to create a new application to market his sweet and
   4. Extract the Zip to a folder of your choice and open with a code editor (i.e. vscode)
   5. Use a SQL Manager Database such as mySQL Workbench.
   6. Change the appsettings.json file to use your own first and last name and password 
-  6. Navigate to the Treats directory by entering `cd` **Your Filepath/**`Treats`. Then enter `dotnet restore`, `dotnet build`, `dotnet dotnet ef migrations add _Your_Name_`, `dotnet ef database update` then `dotnet run` into the terminal.
+  6. Navigate to the Treats directory by entering `cd` **Your Filepath/**`PierresTreats`. Then enter `dotnet restore`, `dotnet build`, `dotnet dotnet ef migrations add _Your_Name_`, `dotnet ef database update` then `dotnet run` into the terminal.
 
 ## Known Bugs
 
