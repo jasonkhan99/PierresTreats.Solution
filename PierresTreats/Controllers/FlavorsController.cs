@@ -87,7 +87,7 @@ namespace PierresTreats.Controllers
     {
       if (TreatId != 0)
       {
-        _db.FlavorTreat.Add(new FlavorTreat() { treatId = TreatId, flavorId = flavor.FlavorId });
+        _db.FlavorTreat.Add(new FlavorTreat() { TreatId = TreatId, FlavorId = flavor.FlavorId });
       }
       _db.SaveChanges();
       return RedirectToAction("Index");
